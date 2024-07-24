@@ -1,0 +1,16 @@
+fetch("https://line-chrome-gw.line-apps.com/api/talk/thrift/Talk/TalkService/negotiateE2EEPublicKey", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "ru-RU",
+    "content-type": "application/json",
+    "x-hmac": "token?",
+    "x-lal": "ru_RU",
+    "x-line-access": "token?",
+    "x-line-chrome-version": "3.4.0"
+  },
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": "[\"ID?\"]",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+});
