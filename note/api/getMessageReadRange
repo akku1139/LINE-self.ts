@@ -1,0 +1,14 @@
+fetch("https://line-chrome-gw.line-apps.com/api/talk/thrift/Talk/TalkService/getMessageReadRange", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-hmac": "token?",
+    "x-lal": "ru_RU",
+    "x-line-access": "token?",
+    "x-line-chrome-version": "3.4.0"
+  },
+  "body": "[[\"channelID?\"],1]",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+});
