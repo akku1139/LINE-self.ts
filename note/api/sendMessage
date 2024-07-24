@@ -1,0 +1,16 @@
+fetch("https://line-chrome-gw.line-apps.com/api/talk/thrift/Talk/TalkService/sendMessage", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "ru-RU",
+    "content-type": "application/json",
+    "x-hmac": "token?",
+    "x-lal": "ru_RU",
+    "x-line-access": "token?",
+    "x-line-chrome-version": "3.4.0"
+  },
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": "[1057374762,{\"from\":\"userid?\",\"to\":\"userid?\",\"toType\":0,\"id\":\"id?\",\"createdTime\":\"time?\",\"sessionId\":0,\"contentType\":0,\"contentMetadata\":{\"e2eeVersion\":\"2\"},\"hasContent\":false,\"chunks\":[\"??==\",\"??==\",\"??\",\"?==\",\"?==\"]}]",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+});
